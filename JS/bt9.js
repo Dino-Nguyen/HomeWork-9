@@ -41,12 +41,10 @@ function FindMin() {
      // Nếu a và b bằng nhau
                 if (a == b) {
                         alert("Two numbers are equal");
-                    return a;
-                    return b;
                 }
       
     // so sánh a và b
-    let result = (a < b) ? a : b;
+    let result = (${a} < ${b}) ? a : b;
     alert(result)
 }
 

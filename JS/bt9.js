@@ -31,6 +31,8 @@ function FindMin() {
     alert(' Please enter numbers you wanna check >')
     let a = prompt('First number :', ' ')
     let b = prompt('Second number :', ' ')
+    a = parseInt(a);
+    b = parseInt(b);
      // check xem dữ liệu nhập vào có phải là 1 số hay ko?
                 if (a,b === " "){
                        alert("please enter at least 2 numbers");

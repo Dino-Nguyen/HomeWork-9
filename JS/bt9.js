@@ -29,8 +29,8 @@ function UseOR() {
 function FindMin() {
     // Tìm số nhỏ hơn
     alert(' Please enter numbers you wanna check >')
-    let a = parsefloat(prompt('First number :', ' '))
-    let b = parsefloat(prompt('Second number :', ' '))
+    let a = prompt('First number :', ' ')
+    let b = prompt('Second number :', ' ')
      // check xem dữ liệu nhập vào có phải là 1 số hay ko?
                 if (a,b === " "){
                        alert("please enter at least 2 numbers");

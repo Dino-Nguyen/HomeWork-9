@@ -44,7 +44,7 @@ function FindMin() {
                 }
       
     // so sánh a và b
-    let result = (${a} < ${b}) ? a : b;
+    let result = (a << b) ? a : b;
     alert(result)
 }
 
